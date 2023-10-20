@@ -1,6 +1,6 @@
-#scope, life time of a viriable.
-#Local scope: Only available locally in a function.
-#Global scope: Available through execution of program
+# In python we have 2 types of scope (life-time of a variable)
+# Local scope: Only available locally in a function.
+# Global scope: Availabe through execution of program.
 
 name = "Fredrik"
 
@@ -9,18 +9,17 @@ def main():
     name = "Kalle"
     print(name)
 
-print (name)
+print(name)
 main()
-print(name) 
+print(name)
 
+# Python doesn't have block scope, but this is used in most other languages, such as c#, c++, java
+# if name == "Fredrik":
+#     last_name = "Johansson"
+    
+# print(last_name)
 
-# # def main():
-# #    name = "Fredrik"
-# #    print(name) 
-# # # Python doesn't  
-# # if name == "Fredri":
-# #    last_name = "Johansson"
+# for i in range(3):
+#     print(i)
 
-#print(last_name)
-
-# # for i in range(10):
+# print(f"i = {i}")
